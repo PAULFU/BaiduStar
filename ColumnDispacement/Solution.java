@@ -6,6 +6,7 @@ import java.util.Scanner;
  */
 
 public class Solution{
+
     public static String decryption(int key, String string) {
         int length = string.length();
         char[] ch = string.toCharArray();
