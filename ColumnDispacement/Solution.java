@@ -32,6 +32,7 @@ public class Solution{
             k[i] = sc.nextInt();
         }
 
+
         for (int j=0;j<count;j++){
             System.out.println("Case #" + (j + 1));
             System.out.println(decryption(k[j], st[j]));
