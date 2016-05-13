@@ -18,8 +18,7 @@ public class Solution{
                 mark = mark % key + 1;   //每列的余数是相同的，加1表示向右移动一列
             }
         }
-        String rst = new String(result);
-        return rst;
+        return new String(result);
     }
 
     public static void main(String[] args) {
